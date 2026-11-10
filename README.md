@@ -1,7 +1,12 @@
 # 🍲 TasteBite Restaurant - ASP.NET Web Forms Dynamic Website
 
-A dynamic Restaurant & Food Ordering Web Application built with **ASP.NET Web Forms (.NET Framework 4.7.2), C# (ADO.NET), and SQL Server Database (`TasteBiteDB.mdf`)** for **Visual Studio 2022**.
+Definition:
 
+TasteBite Restaurant is a dynamic online food ordering website developed using ASP.NET Web Forms, C#, and SQL Server. The main purpose of this project is to provide customers with an easy and convenient platform to explore food items, view menus, check prices, and order food online.
+
+The website allows users to browse different food categories, add food items to their cart, manage quantities, and place orders. It also includes an admin panel to manage food items, categories, customer details, and orders. The website uses a database to store and manage information dynamically.
+
+In simple words: TasteBite is an online restaurant management and food ordering system that connects customers with restaurant services through a user-friendly website.
 ---
 
 ## 🌟 Project Highlights & Features
@@ -38,16 +43,5 @@ A dynamic Restaurant & Food Ordering Web Application built with **ASP.NET Web Fo
 
 ---
 
-## 🔑 Local Test Accounts
-
-Test account credentials are intentionally not published. Create or configure local test accounts before running the application, and never reuse credentials from a public repository in production.
-
----
-
-## 🚀 How to Run in Visual Studio 2022
-
-1. Open **Visual Studio 2022**.
-2. Click **Open a project or solution**.
-3. Select `TasteBiteRestaurant.sln`.
-4. Right-click on `Default.aspx` in Solution Explorer and click **Set As Start Page**.
+**Set As Start Page**.
 5. Press **F5** or click **IIS Express** to run the project.
