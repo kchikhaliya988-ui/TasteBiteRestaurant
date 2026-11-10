@@ -1,0 +1,38 @@
+/* ========================================================
+   TasteBite Restaurant - Checkout Page Styles (checkout.css)
+   ======================================================== */
+
+.checkout-box {
+    background: #fff;
+    border: 1px solid var(--cream-border, #f5ebe0);
+    border-radius: var(--card-radius, 16px);
+    padding: 2rem;
+    box-shadow: var(--shadow-soft, 0 4px 20px rgba(0, 0, 0, 0.05));
+}
+
+.payment-card-option {
+    border: 2px solid var(--cream-border, #f5ebe0);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    transition: var(--transition, all 0.3s cubic-bezier(0.4, 0, 0.2, 1));
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.payment-card-option:hover {
+    border-color: #fdba74;
+    background-color: var(--primary-light, #fff5eb);
+}
+
+.payment-card-option.selected {
+    border-color: var(--primary, #f05d23);
+    background-color: #fffaf5;
+}
+
+.payment-card-option input[type="radio"] {
+    accent-color: var(--primary, #f05d23);
+    transform: scale(1.2);
+}

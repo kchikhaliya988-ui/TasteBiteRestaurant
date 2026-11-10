@@ -1,0 +1,62 @@
+/* ========================================================
+   TasteBite Restaurant - Login Page Styles (login.css)
+   ======================================================== */
+
+.auth-container {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.auth-card {
+    border-radius: var(--card-radius, 16px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 1px solid var(--cream-border, #f5ebe0);
+    background: #ffffff;
+}
+
+.auth-hero-login {
+    background: linear-gradient(135deg, rgba(27, 25, 24, 0.88), rgba(193, 18, 31, 0.85)), 
+                url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80') center/cover no-repeat;
+    color: #ffffff;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-group-custom .input-group-text {
+    background-color: #faf7f2;
+    border-color: #e5ded4;
+    color: #78716c;
+}
+
+.form-control-custom {
+    border-color: #e5ded4;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+}
+
+.form-control-custom:focus {
+    border-color: var(--primary, #f05d23);
+    box-shadow: 0 0 0 0.25rem rgba(240, 93, 35, 0.15);
+}
+
+.toggle-password-btn {
+    border-color: #e5ded4;
+    background-color: #faf7f2;
+    color: #78716c;
+    cursor: pointer;
+}
+
+.toggle-password-btn:hover {
+    color: var(--primary, #f05d23);
+    background-color: #f3ece2;
+}
+
+.demo-credential-box {
+    background-color: #fff9f5;
+    border: 1px dashed #f05d23;
+    border-radius: 12px;
+    padding: 1rem;
+}
